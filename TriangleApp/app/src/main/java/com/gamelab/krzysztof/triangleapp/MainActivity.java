@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         view.setRenderer(new ShapeRenderer());
         // Render the view only when there is a change in the drawing data.
         // To allow the triangle to rotate automatically, this line is commented out:
-        view.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
+//        view.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);// WYPIERDOLIIIC!!!!
         setContentView(view);
     }
 
